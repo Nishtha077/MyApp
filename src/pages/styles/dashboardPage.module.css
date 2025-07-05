@@ -1,0 +1,37 @@
+.heading {
+    display: flex;
+    gap: 2rem;
+    max-height: 4rem;
+}
+
+.heading img {
+    max-width: 4rem;
+}
+
+.heading_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.heading_container button {
+    background-color: rgb(53, 123, 245);
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem;
+    min-width: 10rem;
+}
+
+.heading_container button:hover {
+    background-color: rgb(43, 112, 232);
+}
+
+.card_conatiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+

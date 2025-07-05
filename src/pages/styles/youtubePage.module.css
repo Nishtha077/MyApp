@@ -1,0 +1,43 @@
+.topbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_logo {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_logo img {
+height: 2rem;
+}
+
+.topbar_items {
+    display: flex;
+    gap: 1rem;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.categories p {
+    border: 2px solid #dededec7;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.bottom_bar {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
