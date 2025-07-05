@@ -9,7 +9,7 @@ import Youtube from "./pages/youtubePlayerPage";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MyApp">
       <Routes>
         <Route path="/" element={<Dahsboard />} />
         <Route path="/toDoList" element={<ToDoList />} />
