@@ -169,7 +169,7 @@ const BiodataDisplayer = () => {
                   placeholder="SDE I @XYZ"
                   type="text"
                   name=""
-                  defaultValue={elem}
+                  value={elem}
                   onChange={(e) => {
                     handleUpdate(e, idx, setWorkExp);
                   }}
@@ -202,7 +202,7 @@ const BiodataDisplayer = () => {
                   placeholder="Python"
                   type="text"
                   name=""
-                  defaultValue={elem}
+                  value={elem}
                   onChange={(e) => {
                     handleUpdate(e, idx, setSkills);
                   }}
